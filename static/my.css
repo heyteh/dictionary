@@ -1,0 +1,54 @@
+/* Menambahkan CSS baru untuk elemen */
+body {
+    font-family: Arial, sans-serif; /* Mengatur jenis font untuk teks di seluruh halaman */
+}
+
+.banner {
+    padding: 20px;
+}
+
+.eror {
+    padding: 20px;
+}
+
+.suggest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Menambahkan CSS untuk tombol .btn-sparta */
+.btn-sparta {
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Menambahkan CSS untuk elemen .wrap saat di bawah 768px lebar layar */
+@media (max-width: 768px) {
+    .wrap {
+        background-color: transparent;
+    }
+}
+
+/* Menambahkan CSS untuk sel-sel tabel */
+.table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Menambahkan CSS untuk baris tabel yang diberi class 'highlight' */
+.table tr.highlight {
+    background-color: #ffeb3b;
+}
+
+/* Menambahkan CSS untuk link dalam tabel */
+.table a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.table a:hover {
+    text-decoration: underline;
+}
